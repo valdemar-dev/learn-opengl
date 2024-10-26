@@ -1,0 +1,12 @@
+[
+  {
+    "directory": "/home/v/programming_projects/learning/first_c",
+    "command": "gcc -Wall -I./include -c src/main.c -o src/main.c.o",
+    "file": "src/main.c"
+  },
+  {
+    "directory": "/home/v/programming_projects/learning/first_c",
+    "command": "gcc -Wall -I./include -c src/glad.c -o src/glad.c.o",
+    "file": "src/glad.c"
+  }
+]
