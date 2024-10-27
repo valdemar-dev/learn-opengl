@@ -8,5 +8,15 @@
     "directory": "/home/v/programming_projects/learning/first_c",
     "command": "gcc -Wall -I./include -c src/glad.c -o src/glad.c.o",
     "file": "src/glad.c"
+  },
+  {
+    "directory": "/home/v/programming_projects/learning/first_c",
+    "command": "gcc -Wall -I./include -c src/shaders/sourceReader.c -o src/shaders/sourceReader.c.o",
+    "file": "src/shaders/sourceReader.c"
+  },
+  {
+    "directory": "/home/v/programming_projects/learning/first_c",
+    "command": "gcc -Wall -I./include -c src/shaders/shader.c -o src/shaders/shader.c.o",
+    "file": "src/shaders/shader.c"
   }
 ]
