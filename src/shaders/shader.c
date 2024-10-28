@@ -109,10 +109,14 @@ int loadShaders() {
 
     glGetProgramiv(shaderProgramID, GL_LINK_STATUS, &success);
 
+    if (!success) {
+        printf("Failed to link program\n");
+
+        return -1;
+    }
+
     glDeleteShader(vertexShader);
     glDeleteShader(fragmentShader);
 
     return shaderProgramID;
 }
-
-

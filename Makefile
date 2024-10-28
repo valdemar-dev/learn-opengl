@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -I./include
 LDFLAGS = -lglfw -lGL -lX11 -lpthread -lXrandr -lXi -ldl -lm
-SRC = src/main.c src/glad.c src/shaders/sourceReader.c src/shaders/shader.c
+SRC = src/main.c src/glad.c src/shaders/sourceReader.c src/shaders/shader.c src/stb_image.c
 OBJ = $(SRC:.c=.o)
 TARGET = main
 COMPILE_COMMANDS = compile_commands.json

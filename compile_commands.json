@@ -18,5 +18,10 @@
     "directory": "/home/v/programming_projects/learning/first_c",
     "command": "gcc -Wall -I./include -c src/shaders/shader.c -o src/shaders/shader.c.o",
     "file": "src/shaders/shader.c"
+  },
+  {
+    "directory": "/home/v/programming_projects/learning/first_c",
+    "command": "gcc -Wall -I./include -c src/stb_image.c -o src/stb_image.c.o",
+    "file": "src/stb_image.c"
   }
 ]
